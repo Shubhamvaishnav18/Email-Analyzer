@@ -1,7 +1,9 @@
-Email Analyzer Project
+📧 Email Analyzer Project
+
 A full-stack application that connects to email accounts via IMAP, analyzes email headers to trace delivery paths, detects email service providers, and visualizes the results in an interactive dashboard.
 
 🌟 Features
+
 Backend (Node.js)
 IMAP Integration: Secure connection to email providers using IMAP protocol
 
@@ -16,6 +18,7 @@ MongoDB Storage: Save analysis results with timestamps
 RESTful API: Clean API endpoints for frontend communication
 
 Frontend (React + Vite)
+
 Interactive Dashboard: Modern, responsive user interface
 
 Real-time Analysis: Connect to email accounts and analyze messages
@@ -29,6 +32,7 @@ Responsive Design: Works seamlessly on desktop and mobile devices
 🛠️ Tech Stack
 
 Backend
+
 Node.js - Runtime environment
 
 Express.js - Web framework
@@ -38,6 +42,7 @@ MongoDB - Database with Mongoose ODM
 IMAP - Email protocol integration
 
 Frontend
+
 React.js - UI framework
 
 Vite - Build tool and dev server
@@ -47,7 +52,9 @@ Tailwind CSS - Utility-first CSS framework
 Axios - HTTP client for API requests
 
 📦 Installation
+
 Prerequisites
+
 Node.js (v16 or higher)
 
 MongoDB (local or cloud instance)
@@ -55,6 +62,7 @@ MongoDB (local or cloud instance)
 Email account with IMAP access enabled
 
 Backend Setup
+
 Navigate to backend directory:
 
 cd backend
@@ -99,6 +107,7 @@ cp .env.example .env
 Configure environment variables:
 
 env
+
 VITE_API_BASE_URL=http://localhost:5000/api
 
 Start the development server:
@@ -120,6 +129,7 @@ Save Configuration: Store settings for future sessions
 📋 API Endpoints
 
 Email Management
+
 POST /api/email/imap/connect - Connect to IMAP server
 POST /api/email/imap/disconnect - Disconnect from IMAP server
 POST /api/email/analyze - Analyze emails with optional filters
