@@ -5,6 +5,7 @@ A full-stack application that connects to email accounts via IMAP, analyzes emai
 🌟 Features
 
 Backend (Node.js)
+
 IMAP Integration: Secure connection to email providers using IMAP protocol
 
 Email Analysis: Parse and extract email headers and metadata
@@ -131,7 +132,10 @@ Save Configuration: Store settings for future sessions
 Email Management
 
 POST /api/email/imap/connect - Connect to IMAP server
+
 POST /api/email/imap/disconnect - Disconnect from IMAP server
+
 POST /api/email/analyze - Analyze emails with optional filters
+
 GET /api/email/results - Retrieve analysis results
 
